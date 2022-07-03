@@ -1,0 +1,305 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.vf {
+    height: 30px;
+    width: 30px;
+}
+
+.vf2 {
+    height: 60px;
+    width: 60px;
+}
+
+.grijs {
+    background: rgb(207, 207, 207);
+}
+
+
+/* .extraMargin {
+    margin-top: 200px;
+} */
+
+.achtergrondstreep {
+    background: -webkit-linear-gradient(rgba(135, 60, 255, 1), rgba(135, 60, 255, 0.0) 0%), -webkit-linear-gradient(-75deg, rgba(255, 255, 255, 0.9) 55%, rgb(207, 207, 207) 0%);
+}
+
+.achtergrondstreep2 {
+    background: -webkit-linear-gradient(rgba(135, 60, 255, 1), rgba(135, 60, 255, 0.0) 0%), -webkit-linear-gradient(77deg, rgba(255, 255, 255, 0.9) 50%, rgb(207, 207, 207) 0%);
+}
+
+.navkleur {
+    opacity: 90%;
+    background: rgb(124, 124, 124);
+    background: linear-gradient(0deg, rgb(124, 124, 124) 0%, rgb(124, 124, 124) 48%);
+}
+
+.bg {
+    background-image: url("../img/tegels.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.bruin {
+    background: linear-gradient(0deg, rgb(31, 109, 172) 48%, rgba(8, 7, 85, 0.941) 100%);
+}
+
+.marmer {
+    background-image: url("../img/marmer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* .hout {
+    background-image: url("../img/gevelsteen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.text-bruin {
+    color: rgb(54, 36, 7);
+}
+
+.text-wit {
+    color: rgb(248, 244, 231);
+}
+
+.achtergrondkleur {
+    background: rgb(190, 190, 190);
+    background: radial-gradient(circle, rgba(201, 201, 201, 0.922) 0%, rgba(201, 201, 201, 0.951) 0%);
+}
+
+.lijst li {
+    padding-right: 65px;
+}
+
+.modalLijst {
+    background-color: rgb(54, 36, 7);
+    opacity: 70%;
+}
+
+.imgbox {
+    box-shadow: 10px 10px 12px rgb(63, 41, 26);
+}
+
+.font {
+    font-family: 'Dancing Script', cursive;
+}
+
+.titels {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.font {
+    font-family: 'Dancing Script', cursive;
+}
+
+.font2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+
+.divTekst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.afronden {
+    border-radius: 20px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span.border {
+    /* Alle spans met een div border spreken we hier aan */
+    color: rgb(201, 206, 228);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    background-color: rgb(11, 18, 110);
+    opacity: 90%;
+}
+
+
+/* cardflipper */
+
+.card-container {
+    position: relative;
+    height: 429px;
+    width: 18rem;
+    perspective: 200rem;
+}
+
+.card-container:hover .card-front {
+    transform: rotateY(180deg);
+}
+
+.card-container:hover .card-back {
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.personeel {
+    transition: 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+
+/* Begin scrollfoto (groepsfoto)*/
+
+.bgimg-1 {
+    opacity: 0.5;
+    /* specific height */
+    height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../img/VF.jpg');
+    min-height: 100%;
+}
+
+
+/* Solcial media */
+
+.wrapper {
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper i {
+    padding-left: 15px;
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+    transition: all ease-in-out 150ms;
+}
+
+.wrapper a:nth-child(1) {
+    color: #3b5998
+}
+
+
+/* .wrapper a:nth-child(2) {
+    color: #1DA1F2;
+} */
+
+.wrapper a:nth-child(3) {
+    color: black;
+}
+
+.wrapper i:hover {
+    margin-top: -3px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
+.fa-instagram {
+    color: transparent;
+    background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+}
+
+@media screen and (max-width: 400px) {
+    .contactTable {
+        font-size: 10px;
+    }
+    /* divs van plaats veranderen. */
+    .first_div {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        -ms-flex-order: 2;
+        -webkit-order: 2;
+        order: 2;
+    }
+    .second_div {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+    }
+    .zoom {
+        transition: transform 0.5s;
+        /* Animatie tijd */
+        margin: 0;
+    }
+    .zoom:hover {
+        transform: scale(1.1);
+        /*zo ver inzoomen*/
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .zoom {
+        transition: transform 0.5s;
+        /* Animatie tijd */
+        margin: 0;
+    }
+    .zoom:hover {
+        transform: scale(1.019);
+        /*zo ver inzoomen*/
+    }
+    .zoom2 {
+        transition: transform 0.9s;
+        /* Animatie tijd */
+        margin: 0;
+    }
+    .zoom2:hover {
+        transform: scale(1.3);
+        /*zo ver inzoomen*/
+    }
+}
+
+
+/*formulier*/
+
+form label {
+    display: inline-block;
+    width: 100px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: rgb(168, 16, 11);
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+label.error {
+    display: inline;
+}
+
+.fas {
+    color: rgb(97, 58, 43);
+}
+
+.achtergrond-zwart {
+    background-color: black;
+}
